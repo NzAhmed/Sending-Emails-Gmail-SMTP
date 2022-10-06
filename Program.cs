@@ -32,21 +32,21 @@ string password = "xxxxxxxxxxxxxxxx";
 //Receiver Email Address  
 string ReceiverAddress = "example@gmail.com"; 
 
-string subject = "Account confirmation";  
+string subject = "[Title]";  
 
 string body = "<head>" +
-        "</head>" +
-        "<body dir='rtl'>" +
-        
-            "<img src='http://vignette3.wikia.nocookie.net/okami/images/2/24/Google_chrome_logo.png/revision/latest?cb=20130220183624' alt='Smiley face' height='42' width='42'>" +
-        
-            "<h1>Account confirmation reqest.</h1>" + Environment.NewLine +
-            "<a>Dear User, </a>" + Environment.NewLine +
-            "<a>In order to be able to use musicshop app properly, we require You to confirm Your email address.</a>" + Environment.NewLine +
-            "<a>This is the last step towards using our app.</a>" + Environment.NewLine +
-            "<a>Pleas follow this hyperlink to confirm your address.</a>" + Environment.NewLine +
-            "<a>[Callback url]</a>" +
-        "</body>";
+   "</head>" +
+   "<body dir='rtl'>" +
+       "<!-- Logo -->"
+       "<img src='http://vignette3.wikia.nocookie.net/okami/images/2/24/Google_chrome_logo.png/revision/latest?cb=20130220183624' alt='Smiley face' height='42' width='42'>" +
+
+       "<h1>Account confirmation reqest.</h1>" + Environment.NewLine +
+       "<a>Dear User, </a>" + Environment.NewLine +
+       "<a>In order to be able to use NZ app properly, we require You to confirm Your email address.</a>" + Environment.NewLine +
+       "<a>This is the last step towards using our app.</a>" + Environment.NewLine +
+       "<a>Pleas follow this hyperlink to confirm your address.</a>" + Environment.NewLine +
+       "<a>[Callback url]</a>" +
+   "</body>";
 
 using(MailMessage mail = new MailMessage()) 
 {  
