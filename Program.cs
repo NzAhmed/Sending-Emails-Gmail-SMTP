@@ -1,20 +1,20 @@
-﻿            /*
-                myaccount.google.com 
-                -> security 
-                -> 2-Step Verification 
-                -> Get Started 
+ /*
+    myaccount.google.com 
+    -> security 
+    -> 2-Step Verification 
+    -> Get Started 
 
-                -> To continue, first verify it's you
-                -> setup your phone
-                -> 
-                2-step verification turned on
+    -> To continue, first verify it's you
+    -> setup your phone
+    -> 
+    2-step verification turned on
 
-                -------------------
-                myaccount.google.com
-                security -> Signing in to Google
-                         -> App passwords
-                generate passwords ,,,
-            */
+    -------------------
+    myaccount.google.com
+    security -> Signing in to Google
+             -> App passwords
+    generate passwords ,,,
+*/
 
 using System.Net;
 using System.Net.Mail;
@@ -27,10 +27,10 @@ bool enableSSL = true;
 //Sender Email Address  
 string SenderAddress = "nizocode@gmail.com"; 
 //Sender Password  
-string password = "xjgktxlpajjtfimz"; 
+string password = "xxxxxxxxxxxxxxxx"; 
 
 //Receiver Email Address  
-string ReceiverAddress = "internetissue@gmail.com"; 
+string ReceiverAddress = "example@gmail.com"; 
 
 string subject = "Account confirmation";  
 
