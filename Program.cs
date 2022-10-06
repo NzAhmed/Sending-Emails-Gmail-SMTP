@@ -25,12 +25,12 @@ int portNumber = 587;
 bool enableSSL = true; 
 
 //Sender Email Address  
-string SenderAddress = "nizocode@gmail.com"; 
+string SenderAddress = "senderaddress@gmail.com"; 
 //Sender Password  
 string password = "xxxxxxxxxxxxxxxx"; 
 
 //Receiver Email Address  
-string ReceiverAddress = "example@gmail.com"; 
+string ReceiverAddress = "receiveraddress@gmail.com"; 
 
 string subject = "[Title]";  
 
